@@ -3,7 +3,5 @@
 
 ## RGB–热红外目标检测
 
-| 实验 | 内容 |
-| --- | --- |
-| [M²D-LIF × FLIR](experiments/m2d-lif-flir/README.md) | 单卡训练 RGB、红外教师和融合模型，对照作者权重与重训权重的同设置复评结果。 |
-| [ICAFusion × FLIR](experiments/icafusion-flir/README.md) | 使用作者的 YOLOv5l 实现训练 60 轮，记录逐轮结果、兼容性问题和断点恢复。 |
+- [M²D-LIF × FLIR](experiments/m2d-lif-flir/README.md) · 单卡训练两套教师和融合模型，对照作者权重与重训权重。
+- [ICAFusion × FLIR](experiments/icafusion-flir/README.md) · 使用 YOLOv5l 训练 60 轮，对照论文及作者更新结果。
