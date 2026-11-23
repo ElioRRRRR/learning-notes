@@ -1,0 +1,9 @@
+path: /path/to/FLIR-aligned-ir
+train: images/train
+val: images/val
+ch: 3
+nc: 3
+names:
+  0: car
+  1: person
+  2: bicycle
